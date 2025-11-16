@@ -1,0 +1,47 @@
+HELP.md
+
+### PROJETO ###
+target/
+zeo-secoes/target/
+zeo-core/target/
+zeo-admin/target/
+comum-lib/target/
+relatorios/
+data/
+
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/target/
+!**/zeo-core/target/
+!**/zeo-admin/target/
+!**/zeo-secoes/target/
+!**/comum-lib/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
