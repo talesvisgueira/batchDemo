@@ -1,0 +1,11 @@
+app:
+  name: demoBatch
+
+spring:
+  application:
+    name: ${app.name}
+  datasource:
+    url: ${DATASOURCE_URL:jdbc:h2:./data/testdb}
+    driver-class-name: org.h2.Driver
+    username: ${DATASOURCE_USERNAME:ZEO_SECAO_URNA_DEV}
+    password: ${DATASOURCE_PASSWORD:SED#AGzeo25}
